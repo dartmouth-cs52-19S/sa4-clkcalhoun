@@ -17,7 +17,7 @@ class App extends Component {
       selectedVideo: null,
     };
     this.search = debounce(this.search, 300);
-    this.search('pixar');
+    this.search('chicken with pants');
     // youtubeSearch('pixar').then((videos) => {
     //   this.setState({
     //     videos,
